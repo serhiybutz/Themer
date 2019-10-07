@@ -9,12 +9,12 @@
 <p align="center">
     <img src="https://img.shields.io/badge/Swift-4.2-orange" alt="Swift" />
     <img src="https://img.shields.io/badge/platform-macOS%20|%20iOS-orange.svg" alt="Platform" />
-    <img src="https://img.shields.io/badge/pod-compatible-orange" alt="CocoaPods" />
+    <img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-orange" alt="SPM" />
     <a href="https://github.com/SergeBouts/Themer/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/licence-MIT-orange" alt="License" />
     </a>
 </p>
-This package contains a theme manager, which provides theming facility for the entire app and allows toggling the current theme all at once. It was developed by striving for the highest flexibility and cleanness of theming code.
+Themer is a lightweight theme manager for iOS which provides theming for the whole app and allows toggling the current theme, all at once. It was developed by striving for the highest flexibility and cleanness of theming code and to provide a universal solution suitable even for pre-iOS 13 devices.
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ This package contains a theme manager, which provides theming facility for the e
 - [How](#how)
 - [Get started](#get-started)
 - [Installation](#installation)
-  - [CocoaPods](#CocoaPods)
+  - [Swift Package as dependendcy in Xcode 11+](#swift-package-as-dependency-in-xcode-11)
   - [Manually](#manually)
 - [License](#license)
 
@@ -31,6 +31,7 @@ This package contains a theme manager, which provides theming facility for the e
 - [x] A flexible and extensible theming facility to the entire app
 - [x] A clean theming code
 - [x] A clear boundary between the look and the logic
+- [x] Compatibility with pre-iOS 13 devices
 
 ## How
 
@@ -150,21 +151,20 @@ By integrating **Themer** into your app and configuring. Here're the steps:
 
 ## Installation
 
-### CocoaPods
+### Swift Package as dependency in Xcode 11+
 
-[CocoaPods]: http://cocoapods.org
+1. Go to "File" -> "Swift Packages" -> "Add Package Dependency"
+2. Paste Themer repository URL into the search field:
 
-Add the following to your [Podfile](http://guides.cocoapods.org/using/the-podfile.html):
+`https://github.com/SergeBouts/Themer.git`
 
-```ruby
-platform :ios, '11.0'
+3. Click "Next"
 
-target 'YOUR-TARGET' do
-  pod 'Themer', :git => 'https://github.com/SergeBouts/Themer.git'
-end
-```
+4. Ensure that the "Rules" field is set to something like this: "Version: Up To Next Major: 1.1.0"
 
-Then run `pod install`.
+5. Click "Next" to finish
+
+For more info, check out [here](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app).
 
 ### Manually
 
