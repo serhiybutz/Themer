@@ -10,6 +10,10 @@
     <img src="https://img.shields.io/badge/Swift-4.2-orange" alt="Swift" />
     <img src="https://img.shields.io/badge/platform-macOS%20|%20iOS-orange.svg" alt="Platform" />
     <img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-orange" alt="SPM" />
+    <img src="https://github.com/SergeBouts/Themer/workflows/Swift/badge.svg" alt="CI" />
+    <a href="https://codecov.io/gh/SergeBouts/Themer">
+      <img src="https://codecov.io/gh/SergeBouts/Themer/branch/master/graph/badge.svg" />
+    </a>
     <a href="https://github.com/SergeBouts/Themer/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/licence-MIT-orange" alt="License" />
     </a>
