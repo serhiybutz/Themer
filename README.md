@@ -1,20 +1,20 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/SergeBouts/Themer/master/Logo.png" width="500" max-width="50%" alt="Wrap" />
+    <img src="https://raw.githubusercontent.com/SerhiyButz/Themer/master/Logo.png" width="500" max-width="50%" alt="Wrap" />
 </p>
 
 <p align="center">
-    <a href="https://github.com/SergeBouts/Themer">Themer</a>
+    <a href="https://github.com/SerhiyButz/Themer">Themer</a>
 </p>
 
 <p align="center">
     <img src="https://img.shields.io/badge/Swift-4.2-orange" alt="Swift" />
     <img src="https://img.shields.io/badge/platform-macOS%20|%20iOS-orange.svg" alt="Platform" />
     <img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-orange" alt="SPM" />
-    <img src="https://github.com/SergeBouts/Themer/workflows/Swift/badge.svg" alt="CI" />
-    <a href="https://codecov.io/gh/SergeBouts/Themer">
-      <img src="https://codecov.io/gh/SergeBouts/Themer/branch/master/graph/badge.svg" />
+    <img src="https://github.com/SerhiyButz/Themer/workflows/Swift/badge.svg" alt="CI" />
+    <a href="https://codecov.io/gh/SerhiyButz/Themer">
+      <img src="https://codecov.io/gh/SerhiyButz/Themer/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/SergeBouts/Themer/blob/master/LICENSE">
+    <a href="https://github.com/SerhiyButz/Themer/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/licence-MIT-orange" alt="License" />
     </a>
 </p>
@@ -160,7 +160,7 @@ By integrating **Themer** into your app and configuring. Here're the steps:
 1. Go to "File" -> "Swift Packages" -> "Add Package Dependency"
 2. Paste Themer repository URL into the search field:
 
-`https://github.com/SergeBouts/Themer.git`
+`https://github.com/SerhiyButz/Themer.git`
 
 3. Click "Next"
 
